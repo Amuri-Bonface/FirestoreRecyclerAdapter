@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.guidoapps.surebets">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+
+        android:theme="@style/WhiteTheme">
+        <meta-data
+            android:name="com.onesignal.NotificationOpened.DEFAULT"
+            android:value="DISABLE" />
+        <activity android:name=".MainActivity2">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.guidoapps.surebets.UndeOver"
+            android:theme="@style/WhiteTheme"
+            />
+        <activity android:name="com.guidoapps.surebets.SureOdds"
+            android:theme="@style/WhiteTheme"/>
+        <activity android:name="com.guidoapps.surebets.MiniJackpot"
+            android:theme="@style/WhiteTheme"/>
+        <activity android:name="com.guidoapps.surebets.MegaJackpot"
+            android:theme="@style/WhiteTheme"/>
+        <activity android:name="com.guidoapps.surebets.LiveInPlay"
+            android:theme="@style/WhiteTheme"/>
+        <activity android:name="com.guidoapps.surebets.DoubleChance"
+            android:theme="@style/WhiteTheme"/>
+        <activity android:name="com.guidoapps.surebets.GoalGoal"
+            android:theme="@style/WhiteTheme"/>
+        <activity android:name="com.guidoapps.surebets.PremiumTips"
+            android:theme="@style/WhiteTheme"/>
+        <activity android:name="com.guidoapps.surebets.DoubleChanceEditDb"
+            android:theme="@style/WhiteTheme"/>
+        <activity android:name="com.guidoapps.surebets.GoalGoalEditDb"
+            android:theme="@style/WhiteTheme"/>
+        <activity android:name="com.guidoapps.surebets.LiveInPlayEditDb"
+            android:theme="@style/WhiteTheme"/>
+        <activity android:name="com.guidoapps.surebets.MegaJackPotEditDb"
+            android:theme="@style/WhiteTheme"/>
+        <activity android:name="com.guidoapps.surebets.MiniJackpotEditDb"
+            android:theme="@style/WhiteTheme"/>
+        <activity android:name="com.guidoapps.surebets.SureOddsEditDb"
+            android:theme="@style/WhiteTheme"/>
+        <activity android:name="com.guidoapps.surebets.History"
+            android:theme="@style/WhiteTheme"/>
+        <activity android:name="com.guidoapps.surebets.UnderOverEditDb" />
+        <activity android:name=".PopUp"
+            android:theme="@style/WhiteTheme"/>
+
+
+    </application>
+
+</manifest>
