@@ -63,6 +63,6 @@ Create `FirestoreRecyclerAdapter`:
         };
 ```
 
-
+##modified
 [firestore-console]: https://console.firebase.google.com/u/0/
 [firestore-docs]: https://firebase.google.com/docs/firestore/
